@@ -27,20 +27,27 @@
         android:layout_weight="1"
         android:orientation="vertical" >
 
-        <TextView
+        <com.handmark.pulltorefresh.library.kicksend.KSBoldTextView
             android:id="@+id/pull_to_refresh_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:shadowColor="@color/white_shadow"
+            android:shadowDy="2"
+            android:shadowRadius="2"
             android:singleLine="true"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textStyle="bold" />
+            android:textColor="@color/gray_xxdark"
+            android:textSize="18sp" />
 
-        <TextView
+        <com.handmark.pulltorefresh.library.kicksend.KSBoldTextView
             android:id="@+id/pull_to_refresh_sub_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:shadowColor="@color/white_shadow"
+            android:shadowDy="2"
+            android:shadowRadius="2"
             android:singleLine="true"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gray_xxdark"
+            android:textSize="18sp"
             android:visibility="gone" />
     </LinearLayout>
 
