@@ -4,6 +4,7 @@
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:layout_marginRight="@dimen/header_footer_internal_padding" >
 
         <ImageView
@@ -25,28 +26,24 @@
         android:layout_width="0px"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_marginTop="5dp"
         android:orientation="vertical" >
 
         <com.handmark.pulltorefresh.library.kicksend.KSBoldTextView
             android:id="@+id/pull_to_refresh_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:shadowColor="@color/white_shadow"
-            android:shadowDy="2"
-            android:shadowRadius="2"
+            android:layout_marginTop="2dp"
             android:singleLine="true"
-            android:textColor="@color/gray_xxdark"
+            android:textColor="@color/text_dark"
             android:textSize="18sp" />
 
         <com.handmark.pulltorefresh.library.kicksend.KSBoldTextView
             android:id="@+id/pull_to_refresh_sub_text"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:shadowColor="@color/white_shadow"
-            android:shadowDy="2"
-            android:shadowRadius="2"
             android:singleLine="true"
-            android:textColor="@color/gray_xxdark"
+            android:textColor="@color/text_dark"
             android:textSize="18sp"
             android:visibility="gone" />
     </LinearLayout>

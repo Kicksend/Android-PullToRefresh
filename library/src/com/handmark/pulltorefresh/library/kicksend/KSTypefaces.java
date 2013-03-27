@@ -10,7 +10,7 @@ import com.handmark.pulltorefresh.library.BuildConfig;
 
 public class KSTypefaces {
 
-    private static final String                      TAG   = "KSTypefaces";
+    private static final String  TAG   = "KSTypefaces";
 
     private static final Hashtable<String, Typeface> cache = new Hashtable<String, Typeface>();
 

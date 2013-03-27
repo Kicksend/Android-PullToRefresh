@@ -1,6 +1,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <color name="gray_xxdark">#ff23282d</color>
-    <color name="white_shadow">#1affffff</color>
-
+    <color name="text_dark">#ff79756e</color>
+    <color name="text_shadow">#ffd7d5ce</color>    
 </resources>
