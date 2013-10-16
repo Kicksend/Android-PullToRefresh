@@ -1,12 +1,11 @@
 package com.handmark.pulltorefresh.library.kicksend;
 
+import java.util.Locale;
+
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
-
-
-import java.util.Locale;
 
 public class KSBoldTextView extends TextView {
 
@@ -36,7 +35,7 @@ public class KSBoldTextView extends TextView {
     		language.equals("it") || 
     		language.equals("nl") ||
     		language.equals("pt")) {
-            setTypeface(KSTypefaces.get(context, "font/SourceSansPro-Bold.otf"), Typeface.NORMAL);
+			setTypeface(KSTypefaces.get(context, "font/proximanova-semibold.ttf"), Typeface.NORMAL);
         } else {
         	setTypeface(KSTypefaces.get(context, "font/Roboto-Bold.ttf"), Typeface.NORMAL);
         }

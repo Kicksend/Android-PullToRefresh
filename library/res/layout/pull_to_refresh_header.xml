@@ -36,7 +36,7 @@
             android:layout_marginTop="2dp"
             android:singleLine="true"
             android:textColor="@color/text_dark"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <com.handmark.pulltorefresh.library.kicksend.KSBoldTextView
             android:id="@+id/pull_to_refresh_sub_text"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textColor="@color/text_dark"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:visibility="gone" />
     </LinearLayout>
 
